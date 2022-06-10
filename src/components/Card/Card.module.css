@@ -11,3 +11,10 @@
   padding: 20px;
   border-radius: 10px;
 }
+
+@media (max-width: 570px) {
+  .card {
+    width: 90vw;
+    height: 75vh;
+  }
+}

@@ -53,3 +53,10 @@ button {
   margin: 0 5px;
   width: 40px;
 }
+
+@media (max-width: 570px) {
+  .columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
