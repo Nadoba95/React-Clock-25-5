@@ -1,0 +1,55 @@
+.title {
+  font-size: 32px;
+}
+
+.break_length,
+.session_length {
+  font-size: 22px;
+  margin: 0 7px;
+}
+
+.columns {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+.session_label,
+.break_label {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.timer {
+  background-color: rgb(48, 74, 134);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  padding: 20px;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.time-left,
+.timer-label {
+  color: rgb(99, 144, 211);
+}
+
+.time-left {
+  font-size: 40px;
+}
+
+button {
+  background-color: rgb(48, 74, 134);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button {
+  margin: 0 5px;
+  width: 40px;
+}
