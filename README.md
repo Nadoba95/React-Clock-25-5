@@ -14,4 +14,4 @@
 
 ### Built with
 
-- React.js
+- [React](https://reactjs.org/) - JS library
